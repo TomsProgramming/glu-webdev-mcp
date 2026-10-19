@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Cache (staat standaard in %LOCALAPPDATA% / ~/.cache, maar voor de zekerheid)
+.cache/
+*.tmp
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

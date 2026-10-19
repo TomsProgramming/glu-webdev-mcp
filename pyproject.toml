@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "glu-webdev-mcp"
+dynamic = ["version"]
+description = "MCP-server waarmee Claude de GLU Web Development Notion-site kan lezen en doorzoeken"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Tom Tiedemann" }]
+keywords = ["mcp", "model-context-protocol", "claude", "notion", "glu"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Education",
+]
+dependencies = []
+
+[project.scripts]
+glu-webdev-mcp = "glu_webdev_mcp.server:main"
+
+[project.urls]
+Repository = "https://github.com/TomsProgramming/glu-webdev-mcp"
+
+[tool.setuptools]
+packages = ["glu_webdev_mcp"]
+
+[tool.setuptools.dynamic]
+version = { attr = "glu_webdev_mcp.__version__" }
