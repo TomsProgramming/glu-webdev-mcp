@@ -5,7 +5,7 @@
 ![Geen dependencies](https://img.shields.io/badge/dependencies-geen-brightgreen)
 [![Licentie: MIT](https://img.shields.io/badge/licentie-MIT-lightgrey)](LICENSE)
 
-Een [MCP-server](https://modelcontextprotocol.io) waarmee **Claude** de complete [GLU Web Development Notion-site](https://gluwebdev.notion.site) kan lezen en doorzoeken. Dat zijn alle opdrachten per leerjaar, elke subpagina, databases, afbeeldingen en de links die erin staan: GitHub-repo's, YouTube-video's en documentatie.
+Een [MCP-server](https://modelcontextprotocol.io) waarmee **Claude** de complete [GLU Web Development Notion-site](https://gluwebdev.notion.site/Web-Development-b8d9ced798b741d3a375fcafbb470a43) kan lezen en doorzoeken. Dat zijn alle opdrachten per leerjaar, elke subpagina, databases, afbeeldingen en de links die erin staan: GitHub-repo's, YouTube-video's en documentatie.
 
 Je vraagt Claude bijvoorbeeld *"Wat zijn de eisen van de Hoveniers Website?"*. Claude zoekt dan zelf de juiste pagina op, volgt de links en geeft antwoord.
 
